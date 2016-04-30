@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6233" systemVersion="14A329f" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6233"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -11,9 +12,9 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider="target">
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="ColdBrew" customModuleProvider="target">
             <connections>
-                <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
+                <outlet property="statusMenu" destination="hfT-FS-RAd" id="pyy-MC-jSu"/>
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
@@ -666,15 +667,60 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="ColdBrew" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
-            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1177"/>
-            <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
-                <autoresizingMask key="autoresizingMask"/>
-            </view>
-        </window>
+        <menu id="hfT-FS-RAd">
+            <items>
+                <menuItem title="Activate For" id="4SG-oR-7XC">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Activate For" id="lVp-Vm-h9h">
+                        <items>
+                            <menuItem title="30 minutes" id="ctU-gZ-4EQ">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="thirtyMinutesClicked:" target="Voe-Tx-rLC" id="Gbx-gm-E61"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="1 hour" id="dpZ-NK-fvr">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="oneHourClicked:" target="Voe-Tx-rLC" id="L1D-lg-Pha"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="3 hours" id="2rS-EP-A63">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="threeHoursClicked:" target="Voe-Tx-rLC" id="UvL-ic-5Dw"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="1 day" id="xdc-PG-W3a">
+                                <modifierMask key="keyEquivalentModifierMask" shift="YES"/>
+                                <connections>
+                                    <action selector="oneDayClicked:" target="Voe-Tx-rLC" id="bFx-nb-tiJ"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Deactivate" id="xHQ-Fb-ePn">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="deactivateClicked:" target="Voe-Tx-rLC" id="jQn-p0-9RB"/>
+                        <binding destination="Voe-Tx-rLC" name="enabled" keyPath="disabled" id="hXQ-4C-vqn">
+                            <dictionary key="options">
+                                <bool key="NSRaisesForNotApplicableKeys" value="NO"/>
+                                <string key="NSValueTransformerName">NSNegateBoolean</string>
+                            </dictionary>
+                        </binding>
+                    </connections>
+                </menuItem>
+                <menuItem title="Quit" id="khY-eY-Zgh">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="menuQuitClicked:" target="Voe-Tx-rLC" id="Cjb-IC-NCR"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="272.5" y="247.5"/>
+        </menu>
+        <userDefaultsController representsSharedInstance="YES" id="sN6-V4-rct"/>
     </objects>
 </document>
