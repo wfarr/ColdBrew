@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F1E73DE1CD505F5002B7787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1E73DD1CD505F5002B7787 /* AppDelegate.swift */; };
+		2F1E73E01CD505F5002B7787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1E73DF1CD505F5002B7787 /* Assets.xcassets */; };
+		2F1E73E31CD505F5002B7787 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F1E73E11CD505F5002B7787 /* MainMenu.xib */; };
+		2F1E73EE1CD505F5002B7787 /* ColdBrewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1E73ED1CD505F5002B7787 /* ColdBrewTests.swift */; };
+		2F1E73F91CD505F5002B7787 /* ColdBrewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1E73F81CD505F5002B7787 /* ColdBrewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F1E73EA1CD505F5002B7787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F1E73D21CD505F5002B7787 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1E73D91CD505F5002B7787;
+			remoteInfo = ColdBrew;
+		};
+		2F1E73F51CD505F5002B7787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F1E73D21CD505F5002B7787 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1E73D91CD505F5002B7787;
+			remoteInfo = ColdBrew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F1E73DA1CD505F5002B7787 /* ColdBrew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColdBrew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1E73DD1CD505F5002B7787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F1E73DF1CD505F5002B7787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F1E73E21CD505F5002B7787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2F1E73E41CD505F5002B7787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1E73E91CD505F5002B7787 /* ColdBrewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColdBrewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1E73ED1CD505F5002B7787 /* ColdBrewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdBrewTests.swift; sourceTree = "<group>"; };
+		2F1E73EF1CD505F5002B7787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1E73F41CD505F5002B7787 /* ColdBrewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColdBrewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1E73F81CD505F5002B7787 /* ColdBrewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdBrewUITests.swift; sourceTree = "<group>"; };
+		2F1E73FA1CD505F5002B7787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F1E73D71CD505F5002B7787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1E73E61CD505F5002B7787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1E73F11CD505F5002B7787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F1E73D11CD505F5002B7787 = {
+			isa = PBXGroup;
+			children = (
+				2F1E73DC1CD505F5002B7787 /* ColdBrew */,
+				2F1E73EC1CD505F5002B7787 /* ColdBrewTests */,
+				2F1E73F71CD505F5002B7787 /* ColdBrewUITests */,
+				2F1E73DB1CD505F5002B7787 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F1E73DB1CD505F5002B7787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F1E73DA1CD505F5002B7787 /* ColdBrew.app */,
+				2F1E73E91CD505F5002B7787 /* ColdBrewTests.xctest */,
+				2F1E73F41CD505F5002B7787 /* ColdBrewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F1E73DC1CD505F5002B7787 /* ColdBrew */ = {
+			isa = PBXGroup;
+			children = (
+				2F1E73DD1CD505F5002B7787 /* AppDelegate.swift */,
+				2F1E73DF1CD505F5002B7787 /* Assets.xcassets */,
+				2F1E73E11CD505F5002B7787 /* MainMenu.xib */,
+				2F1E73E41CD505F5002B7787 /* Info.plist */,
+			);
+			path = ColdBrew;
+			sourceTree = "<group>";
+		};
+		2F1E73EC1CD505F5002B7787 /* ColdBrewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F1E73ED1CD505F5002B7787 /* ColdBrewTests.swift */,
+				2F1E73EF1CD505F5002B7787 /* Info.plist */,
+			);
+			path = ColdBrewTests;
+			sourceTree = "<group>";
+		};
+		2F1E73F71CD505F5002B7787 /* ColdBrewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F1E73F81CD505F5002B7787 /* ColdBrewUITests.swift */,
+				2F1E73FA1CD505F5002B7787 /* Info.plist */,
+			);
+			path = ColdBrewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F1E73D91CD505F5002B7787 /* ColdBrew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1E73FD1CD505F5002B7787 /* Build configuration list for PBXNativeTarget "ColdBrew" */;
+			buildPhases = (
+				2F1E73D61CD505F5002B7787 /* Sources */,
+				2F1E73D71CD505F5002B7787 /* Frameworks */,
+				2F1E73D81CD505F5002B7787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColdBrew;
+			productName = ColdBrew;
+			productReference = 2F1E73DA1CD505F5002B7787 /* ColdBrew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F1E73E81CD505F5002B7787 /* ColdBrewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1E74001CD505F5002B7787 /* Build configuration list for PBXNativeTarget "ColdBrewTests" */;
+			buildPhases = (
+				2F1E73E51CD505F5002B7787 /* Sources */,
+				2F1E73E61CD505F5002B7787 /* Frameworks */,
+				2F1E73E71CD505F5002B7787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F1E73EB1CD505F5002B7787 /* PBXTargetDependency */,
+			);
+			name = ColdBrewTests;
+			productName = ColdBrewTests;
+			productReference = 2F1E73E91CD505F5002B7787 /* ColdBrewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F1E73F31CD505F5002B7787 /* ColdBrewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1E74031CD505F5002B7787 /* Build configuration list for PBXNativeTarget "ColdBrewUITests" */;
+			buildPhases = (
+				2F1E73F01CD505F5002B7787 /* Sources */,
+				2F1E73F11CD505F5002B7787 /* Frameworks */,
+				2F1E73F21CD505F5002B7787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F1E73F61CD505F5002B7787 /* PBXTargetDependency */,
+			);
+			name = ColdBrewUITests;
+			productName = ColdBrewUITests;
+			productReference = 2F1E73F41CD505F5002B7787 /* ColdBrewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F1E73D21CD505F5002B7787 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Will Farrington";
+				TargetAttributes = {
+					2F1E73D91CD505F5002B7787 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2F1E73E81CD505F5002B7787 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2F1E73D91CD505F5002B7787;
+					};
+					2F1E73F31CD505F5002B7787 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2F1E73D91CD505F5002B7787;
+					};
+				};
+			};
+			buildConfigurationList = 2F1E73D51CD505F5002B7787 /* Build configuration list for PBXProject "ColdBrew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F1E73D11CD505F5002B7787;
+			productRefGroup = 2F1E73DB1CD505F5002B7787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F1E73D91CD505F5002B7787 /* ColdBrew */,
+				2F1E73E81CD505F5002B7787 /* ColdBrewTests */,
+				2F1E73F31CD505F5002B7787 /* ColdBrewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F1E73D81CD505F5002B7787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1E73E01CD505F5002B7787 /* Assets.xcassets in Resources */,
+				2F1E73E31CD505F5002B7787 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1E73E71CD505F5002B7787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1E73F21CD505F5002B7787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F1E73D61CD505F5002B7787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1E73DE1CD505F5002B7787 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1E73E51CD505F5002B7787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1E73EE1CD505F5002B7787 /* ColdBrewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1E73F01CD505F5002B7787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1E73F91CD505F5002B7787 /* ColdBrewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F1E73EB1CD505F5002B7787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1E73D91CD505F5002B7787 /* ColdBrew */;
+			targetProxy = 2F1E73EA1CD505F5002B7787 /* PBXContainerItemProxy */;
+		};
+		2F1E73F61CD505F5002B7787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1E73D91CD505F5002B7787 /* ColdBrew */;
+			targetProxy = 2F1E73F51CD505F5002B7787 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F1E73E11CD505F5002B7787 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F1E73E21CD505F5002B7787 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F1E73FB1CD505F5002B7787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F1E73FC1CD505F5002B7787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2F1E73FE1CD505F5002B7787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColdBrew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = systems.wfarr.ColdBrew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F1E73FF1CD505F5002B7787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColdBrew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = systems.wfarr.ColdBrew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F1E74011CD505F5002B7787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColdBrewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = systems.wfarr.ColdBrewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColdBrew.app/Contents/MacOS/ColdBrew";
+			};
+			name = Debug;
+		};
+		2F1E74021CD505F5002B7787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColdBrewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = systems.wfarr.ColdBrewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColdBrew.app/Contents/MacOS/ColdBrew";
+			};
+			name = Release;
+		};
+		2F1E74041CD505F5002B7787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColdBrewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = systems.wfarr.ColdBrewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColdBrew;
+			};
+			name = Debug;
+		};
+		2F1E74051CD505F5002B7787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ColdBrewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = systems.wfarr.ColdBrewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColdBrew;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F1E73D51CD505F5002B7787 /* Build configuration list for PBXProject "ColdBrew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1E73FB1CD505F5002B7787 /* Debug */,
+				2F1E73FC1CD505F5002B7787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1E73FD1CD505F5002B7787 /* Build configuration list for PBXNativeTarget "ColdBrew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1E73FE1CD505F5002B7787 /* Debug */,
+				2F1E73FF1CD505F5002B7787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F1E74001CD505F5002B7787 /* Build configuration list for PBXNativeTarget "ColdBrewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1E74011CD505F5002B7787 /* Debug */,
+				2F1E74021CD505F5002B7787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F1E74031CD505F5002B7787 /* Build configuration list for PBXNativeTarget "ColdBrewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1E74041CD505F5002B7787 /* Debug */,
+				2F1E74051CD505F5002B7787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F1E73D21CD505F5002B7787 /* Project object */;
+}
